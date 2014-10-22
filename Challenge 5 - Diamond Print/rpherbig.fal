@@ -1,0 +1,33 @@
+// Copyright: Robert P Herbig, 2011
+
+// Interpreter at http://ideone.com/ but you'll have to
+// replace input() with the ending letter (such as "E")
+target = input()
+
+// While Falcon has cool string manipulation like
+// "s /= 1" to increment s to the next character,
+// it lacks an easy way to do string to int
+character = "A"
+
+max = 1
+while character != target
+    character /= 1
+    max++
+end
+
+character = "A"
+top = ""
+bottom = ""
+for i in [0:max]
+    optional_top = i != 0 ? character + "\t"*(i*2) : ""
+    top += "\t"*(max-i) + optional_top + character + "\n"
+    
+    if i != (max - 1)
+        optional_bottom = i != 0 ? "\t"*(i*2) + character + "\n" : ""
+        bottom = "\t"*(max-i) + character + optional_bottom + bottom
+    end
+    
+    character /= 1
+end
+
+>>top+bottom

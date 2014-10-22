@@ -1,0 +1,14 @@
+Programming Challenge: Diamond Print
+
+Write a program which draws a diamond of the form illustrated below.  Start at the letter 'A', and go to the specified letter ('E' in the example) which is specified as input.
+
+ 	 	 	 	A	 	 	 	 
+ 	 	 	B	 	B	 	 	 
+ 	 	C	 	 	 	C	 	 
+ 	D	 	 	 	 	 	D	 
+E	 	 	 	 	 	 	 	E
+ 	D	 	 	 	 	 	D	 
+ 	 	C	 	 	 	C	 	 
+ 	 	 	B	 	B	 	 	 
+ 	 	 	 	A	 	 	 	 
+ 

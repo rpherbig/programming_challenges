@@ -1,0 +1,12 @@
+Programming Challenge: Thief of Baghdad
+
+The Baghdad Office Building is on fire. On each floor of this high-rise building (which can have at most 150 floors) there is a sack of gold coins. Your task is to determine the maximum number of coins that can be safely retrieved subject to the following conditions:
+
+You must use the elevator which moves at a speed of 10 floors per minute.
+You are on the first floor when the fire starts.
+The elevator cannot safely pass through a floor which is on fire.
+It takes you 10 seconds to retrieve the coins from any floor.
+The fire spreads down at a rate of 1 floor per minute.
+You are not able to safely retrieve the coins if the fire will arrive at that floor while you are there. Once you have finished retrieving the coins on any floor, you are assumed to have left that floor.
+
+Input: one integer to specify the floor that the fire starts on; and pairs of integers specifying a floor number and the number of coins on that floor.

@@ -1,0 +1,5 @@
+Programming Challenge: Friday the 13th
+
+Write a program that returns the number of Friday the 13ths for a given date range.
+
+Let's see if Google or J know the answer to this one!

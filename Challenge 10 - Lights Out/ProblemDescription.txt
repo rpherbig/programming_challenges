@@ -1,0 +1,13 @@
+Programming Challenge: Lights Out
+
+Lights Out was a popular electronic game released by Tiger Toys in 1995. The game board is a 5x5 grid of lights.
+
+When the game begins, a random selection of lights are lit up. Pressing a light will toggle it and its adjacent lights in the four cardinal directions.
+
+The goal of the game is to turn off all lights.
+
+See LightsOutIllustration.svg (from Wikipedia: http://upload.wikimedia.org/wikipedia/commons/a/a9/LightsOutIllustration.svg)
+
+For this challenge, write code that will win the game, or report if the board cannot be won. A stretch goal is to do so in as few moves as possible.
+
+You choose the input format and output format.

@@ -1,0 +1,7 @@
+Programming Challenge: Prime Fibonacci Numbers
+
+Copied from the Greplin Challenge (problem 2): http://challenge.greplin.com/
+
+Write a program to find the first prime Fibonacci number larger than a given minimum.
+
+Example: given 10 (the minimum), the next prime Fibonacci is 13.

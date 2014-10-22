@@ -1,0 +1,19 @@
+Programming Challenge: Pascal's Challenge
+
+Write a program to compute the value of a given position in Pascal's Triangle.
+
+P(row, position) => value
+
+ 	 	 	 	1	 	 	 	 
+ 	 	 	1	 	1	 	 	 
+ 	 	1	 	2	 	1	 	 
+ 	1	 	3	 	3	 	1	 
+1	 	4	 	6	 	4	 	1
+ 
+
+A few examples:
+
+P(0,0) => 1
+P(1,1) => 1
+P(2, 1) => 2
+P(4, 2) => 6
