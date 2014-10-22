@@ -1,0 +1,9 @@
+Programming Challenge: Palindrome
+
+Copied from the Greplin Challenge: http://challenge.greplin.com/
+
+Using this http://challenge.greplin.com/static/gettysburg.txt as a source, write a program to find the longest substring that is also the same when reversed.
+
+Example:
+"I like racecars that go fast"
+The answer would be "racecar".
