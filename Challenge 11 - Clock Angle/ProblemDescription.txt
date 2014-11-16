@@ -1,0 +1,7 @@
+Programming Challenge: Clock Angle
+
+http://en.wikipedia.org/wiki/Clock_angle_problem
+
+Write a function that takes as an input a time of day and returns the angle between the hour hand and minute hand of an analog clock displaying that time.
+
+Feel free to take a look at a clock in the room for some examples. It may help to define the number 12 as zero degrees.
