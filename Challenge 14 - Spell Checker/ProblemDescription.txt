@@ -1,0 +1,5 @@
+Programming Challenge: Spell Checker
+
+http://norvig.com/spell-correct.html
+
+I think a slightly simpler version of that problem statement would be fun to try
