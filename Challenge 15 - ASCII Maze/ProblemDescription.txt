@@ -1,0 +1,5 @@
+Programming Challenge: ASCII Maze
+
+Write code to explore an ASCII maze. It should find the shortest path from the start ('S') to the end ('E') and then printing out a completed path. If there is no path, report that.
+
+Several sample mazes are in this directory.
