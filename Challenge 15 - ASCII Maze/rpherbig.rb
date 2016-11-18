@@ -34,12 +34,12 @@ class MazeSolver
     return if @maze[row][col] == '*'
 
     current_path << [row, col]
+    return if !@best_path.empty? && @best_path.length < current_path.length
+
     if [row, col] == @end
       @best_path = current_path
       return 
     end
-
-    return if !@best_path.empty? && @best_path.length < current_path.length
 
     next_moves(row, col).each { |new_row, new_col| check(new_row, new_col, current_path.dup) }
   end
